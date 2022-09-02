@@ -1,0 +1,414 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: rgb(132, 204, 204);
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: rgb(15, 15, 68);
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.nav-left{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-right{
+    width: 35%;
+    display: flex;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    text-transform: uppercase;
+    color: orange;
+    font-size: 25px;
+}
+.menu{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-right button{
+    width: 40%;
+    border-radius: 30px;
+    padding: 12px;
+    border: none;
+    font-size: 20px;
+}
+.submit button{
+    width: 48%;
+    border-radius: 30px;
+    padding: 12px;
+    border: none;
+    font-size: 20px;
+}
+.submit button:nth-of-type(1){
+    background-color: orange;
+}
+.nav-right button:nth-of-type(1){
+    background-color: orange;
+}
+.nav-right button:nth-of-type(2){
+    color: white;
+    background-color: rgb(25, 25, 107);
+}
+.profile{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+}
+.detail{
+    color: rgb(158, 157, 157);
+}
+.picture{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.picture img{
+    width: 450px;
+    border-radius: 400px;
+}
+.info{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.menu-icon{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu-icon img{
+    width: 40px;
+}
+.contrast{
+    text-align: left;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.picture, .info, .menu-icon{
+    margin: 20px 0px 20px 0px;
+}
+.submit{
+    margin-top: 20px;
+}
+.choose{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.question{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.question p{
+    font-size: 35px;
+}
+.reason{
+    display: flex;
+    justify-content: space-between;
+}
+.first-reason, .second-reason, .third-reason{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(35, 35, 136);
+    margin-bottom: 60px;
+}
+.the-icon img{
+    width: 60px;
+}
+.icon-text{
+    display: flex;
+}
+.the-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.the-reason{
+    margin-top: 20px;
+}
+.icon-text{
+    padding: 40px 40px 5px 40px;
+}
+.the-reason{
+    padding: 0px 40px 40px 40px;
+}
+.first-reason{
+    width: 30%;
+    padding: 60px 0px 60px 30px;
+    border-radius: 0px 20px 20px 0px;
+}
+.second-reason{
+    width: 30%;
+    padding: 60px 0px 60px 30px;
+    border-radius: 20px 20px 20px 20px;
+}
+.third-reason{
+    width: 30%;
+    padding: 60px 0px 60px 30px;
+    border-radius: 20px 0px 0px 20px;
+}
+.product{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.each-product img{
+    width: 260px;
+}
+.the-title{
+    width: 15%;
+}
+.title-button{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.the-title button{
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: orange;
+}
+.each-product{
+    width: 17%;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: rgb(32, 32, 122);
+}
+.each-product .st{
+    width: 20px;
+    margin-bottom: 20px;
+}
+.food-name{
+    font-weight: bold;
+    font-size: 25px;
+}
+.cost{
+    padding: 10px;
+    
+}
+.the-picture{ 
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 600px;
+    margin-bottom: 70px;
+    background: url(../flatten.jpg) no-repeat center;
+    background-size: cover;
+}
+.on-back{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 90px;
+}
+.the-pic{
+    font-size: 80px;
+    font-weight: bold;
+}
+.on-back button{
+    width: 40%;
+    padding: 20px;
+    font-size: 20px;
+    background-color: orange;
+    border: none;
+    border-radius: 40px;
+}
+.other-profile{
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+.other-pic{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.other-pic img{
+    width: 450px;
+    border-radius: 400px;
+}
+
+.the-info{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.the-othertext{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.the-anothertext{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.the-smalltext{
+    color: rgb(158, 157, 157);
+}
+.the-stars{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.mystar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mystar img{
+    width: 20px;
+    height: 20px;
+}
+.circle button{
+    padding: 12px 4px 12px 4px;
+    border-radius: 80px;
+    background-color: orange;
+    color: white;
+    border: none;
+}
+.informa{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(23, 23, 95);
+}
+.first-ma{
+    width: 36%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+.first-ma p{
+    padding: 0;
+    margin: 0;
+}
+.first-ma p:nth-child(1){
+    font-size: 34px;
+    padding: 0;
+}
+.second-ma{
+    width: 35%;
+}
+.third-ma{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    display: flex;
+    height: 200px;
+}
+.third-ma button{
+    width: 50%;
+    padding: 20px 15px 20px 15px;
+    border-radius: 30px;
+    border: none;
+    margin: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(153, 152, 152);
+}
+.third-ma button:nth-child(1){
+    background-color: orange;
+}
+.footer{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    background-color: rgb(17, 17, 80);
+}
+.foot1{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.the-the{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.foot1 .headerer{
+    margin-top: 80px;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.foot2{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 80px;
+}
+.the-head{
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.info-last{
+    display: flex;
+    flex-direction: column;
+}
+.info-last span{
+    padding: 12px;
+}
+.the-last-icons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 70px;
+}
+.the-last-icons img{
+    width: 40px;
+    margin-right: 25px;
+}
+.foot2 span{
+    color: rgb(158, 157, 157);
+}
